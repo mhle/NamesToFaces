@@ -14,6 +14,8 @@
 		7DBD34681E513438007A1D16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DBD34661E513438007A1D16 /* LaunchScreen.storyboard */; };
 		7DBD34731E513439007A1D16 /* NamesToFacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBD34721E513439007A1D16 /* NamesToFacesTests.swift */; };
 		7DBD347E1E51343A007A1D16 /* NamesToFacesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBD347D1E51343A007A1D16 /* NamesToFacesUITests.swift */; };
+		7DBD348C1E526F69007A1D16 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBD348B1E526F69007A1D16 /* PersonCell.swift */; };
+		7DBD348E1E5274D5007A1D16 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBD348D1E5274D5007A1D16 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7DBD34791E51343A007A1D16 /* NamesToFacesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NamesToFacesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DBD347D1E51343A007A1D16 /* NamesToFacesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamesToFacesUITests.swift; sourceTree = "<group>"; };
 		7DBD347F1E51343A007A1D16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DBD348B1E526F69007A1D16 /* PersonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		7DBD348D1E5274D5007A1D16 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +103,12 @@
 			children = (
 				7DBD345D1E513438007A1D16 /* AppDelegate.swift */,
 				7DBD345F1E513438007A1D16 /* ViewController.swift */,
+				7DBD348D1E5274D5007A1D16 /* Person.swift */,
 				7DBD34611E513438007A1D16 /* Main.storyboard */,
 				7DBD34641E513438007A1D16 /* Assets.xcassets */,
 				7DBD34661E513438007A1D16 /* LaunchScreen.storyboard */,
 				7DBD34691E513438007A1D16 /* Info.plist */,
+				7DBD348B1E526F69007A1D16 /* PersonCell.swift */,
 			);
 			path = NamesToFaces;
 			sourceTree = "<group>";
@@ -262,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DBD348C1E526F69007A1D16 /* PersonCell.swift in Sources */,
 				7DBD34601E513438007A1D16 /* ViewController.swift in Sources */,
+				7DBD348E1E5274D5007A1D16 /* Person.swift in Sources */,
 				7DBD345E1E513438007A1D16 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +522,7 @@
 				7DBD34841E51343A007A1D16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DBD34851E51343A007A1D16 /* Build configuration list for PBXNativeTarget "NamesToFacesTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +531,7 @@
 				7DBD34871E51343A007A1D16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DBD34881E51343A007A1D16 /* Build configuration list for PBXNativeTarget "NamesToFacesUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +540,7 @@
 				7DBD348A1E51343A007A1D16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
